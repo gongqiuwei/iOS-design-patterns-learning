@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "PortoType.h"
 
+// portotype
+
 @interface ConcreteProtoType : NSObject<PortoType>
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) int age;
